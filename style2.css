@@ -1,0 +1,188 @@
+.box-sizing-1{
+     background-color: blue;
+     height: 400px;
+     width: 400px;
+     border: 5px solid black;
+     color: rgb(255, 0, 0);
+     padding: 10px;
+
+}
+.box-sizing-2{
+     background-color: blue;
+     height: 400px;
+     width: 400px;
+     border: 5px solid black;
+     color: rgb(255, 0, 0);
+     padding: 10px;
+     box-sizing: content-box;
+     /* size increase */
+     box-sizing: border-box;
+     /* it will be in  */
+}
+a{
+     font-size: 25px;
+}
+
+div{
+  color: green;   
+}
+
+#blue{
+     color: blue;
+}
+#initial{
+     color: initial;
+}
+#inherit{
+     color: inherit;
+}
+
+img{
+     height: 400px;
+     width: 300px;
+     border: 1px solid;
+     object-fit: cover;
+     object-fit: contain; 
+     object-position: left;
+}
+
+a:link{
+    color:blue; 
+}
+a:visited{
+     color: red;
+}
+
+li:first-child{
+color: yellow;
+}
+li:last-child{
+color: green;
+}
+
+/* li:nth-child(odd){
+     color: red;
+} */
+
+li:nth-last-child(odd){
+     color: red;
+}
+
+p::first-letter{
+     font-size: 30px;
+     color: brown;
+}
+p::first-line{
+     font-size: 30px;
+     color: brown;
+}
+/* p::before{
+     content: url('boxmodel.png');
+}
+p::after{
+     content: url('boxmodel.png');
+} */
+
+::selection{
+     color: red;
+     background-color: yellow;
+}
+p{
+     border: 1px solid;
+     height: 100px;
+     width: 100px;
+     display: inline-block;
+}
+
+i{
+     border: 1px solid;
+     display: block;
+}
+
+#div{
+    border: 1px solid;
+    height: 200px;
+    width: 600px; 
+    
+}
+#one{
+     border: 1px solid;
+     height: 100px;
+     margin: 20px;
+     width: 100px;
+     display: inline-block;
+     background-color: blue;
+     position: relative;
+}
+#two{
+     border: 1px solid;
+     height: 100px;
+     margin: 20px;
+     width: 100px;
+     display: inline-block;
+     /* position: relative; */
+     /* from where ever we are, the space specified cannot be used by other element */
+     /* top: 50px;
+     left: 50px; */
+     /* it searches for the position element , w,r to position element
+     it will align */
+
+     position: relative;
+     background-color: black;
+     margin: -60px;
+     z-index: 1;
+}
+#three{
+     border: 1px solid;
+     height: 100px;
+     margin: 20px;
+     width: 100px;
+     display: inline-block;
+     background-color: red;
+     position: relative;
+     margin: -20px;
+     
+}
+
+ul{
+     list-style-type: none ;
+     background-color: green;
+     border: 1px solid;
+     height: 40px;
+}
+li{
+     float: left;
+     margin: 10px;
+}
+
+div{
+background-color: aqua;
+display: inline-block;
+/* transform: translate(30px,50px); */
+margin-left: 50px;
+}
+
+div:hover{
+     transform: scale(1.5,2);
+     /* transform: skew(15deg,30deg); */
+}
+
+a{
+     text-decoration: none;
+     padding: 20px;
+     display: inline-block;
+     
+}
+/* transform work inline-block and block only */
+#transition{
+     background-color: yellow;
+     border: 1px solid ;
+     height: 300px;
+     width: 300px;
+     /* transition-property:width ;
+     transition-duration:0.5s ; */
+     transition: width 0.5s;
+}
+#transition:hover{  
+     width: 200px;
+}

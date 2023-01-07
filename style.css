@@ -1,0 +1,205 @@
+p{
+     color: gray;
+     font-size: 30px;
+}
+
+#paragraphfirst{
+     color: red;
+}
+.class-paragraph{
+     color: blueviolet;
+}
+
+.size{
+     font-size: 30px;
+}
+
+/* #comment{
+    font: 100;
+} */
+#bg-color-paragraph{
+     /* background-color: yellow; */
+     background-image: url("bird.jpg"), url("bird.jpg");
+     background-repeat: no-repeat;
+     background-repeat: repeat-x;
+     background-repeat: repeat-y;
+     background-position: bottom right;
+     background-position: bottom right;
+     background-position: bottom left;
+     background-position: top left;
+     background-position: 120px 120px;
+     background-position: 5% 5%;
+     background-size: 700px 700px;
+     background-size: cover ;
+     background-size: contain;/*contain */
+     background-size: 100% 100%;
+     background-attachment: scroll;
+     background-attachment: fixed;
+
+}
+
+#border{
+     border-style: solid;
+     border-style: dotted;
+     border-style: inset;
+     border-style: hidden;
+     border-width: 5px 4px 3px 2px;
+     border-color: green;
+     border: 5px solid red;
+}
+
+#height-width{
+     height: 600px;
+     height: 100%;
+     width: 500px;
+     width: 100%;
+     max-height: 500px;
+     min-height: 400px;
+     min-width: 400px;
+}
+#padding{
+     border: 1px solid;
+     padding: auto;
+     padding: 10px 20px 30px 40px;
+}
+
+#margin{
+     border: 1px solid;
+     margin: 20px 10px 10px 10px;
+}
+
+#text-properties{
+     border: 1px solid;
+     height: 400px;
+     width: 700px;
+     color: gray;
+     text-align: left;
+     text-align: center;
+     text-align: justify;
+     text-decoration: overline;
+     text-decoration: line-through;
+     text-decoration: underline;
+     text-transform: capitalize;
+     text-transform: lowercase;
+     text-transform: inherit;
+     line-height: 30px;
+     text-indent: 20px;
+     word-spacing: 10px;
+     letter-spacing: 2px;
+     /* white-space: nowrap; */
+     font-size: 20px;
+     
+}
+
+a{
+     text-decoration: none;
+}
+
+a:link{
+color: aqua;
+}
+a:visited{
+color: red;
+}
+a:hover{
+color: orange;
+}
+a:active{
+color: blue;
+}
+
+#font{
+font-size: 15px;
+font-weight: bold;
+font-family: 'Sevillana', cursive;
+/* font-variant: small-caps; */
+/* font-style: italic; */
+}
+
+#cursor{
+     cursor: pointer;
+     cursor: progress;
+     cursor: not-allowed;
+     cursor: wait;
+     /* cursor: pointer;
+     cursor: pointer;
+     cursor: all-scroll;
+     cursor: cell;
+     cursor: col-resize;
+     cursor: e-resize; */
+     
+}
+
+#important{
+     background-color: red !important;
+}
+
+#box{
+     width: 200px;
+     height: 200px;
+     box-shadow: 1px 1px 2px 2px gray ;
+}
+
+#box:hover{
+     opacity: 0.5;
+}
+
+#tree-img{
+     filter: blur(2px);
+     filter: brightness(90%);
+     filter: contrast(70%);
+     filter: drop-shadow(10px 5px 5px green);
+     filter: grayscale(10%);
+     filter: hue-rotate(90deg);
+     filter: invert(10%);
+     filter: opacity(0.5);
+}
+#gradient{
+     border: 1px solid #000;
+     height: 400px;
+     width: 400px;
+     background-image: linear-gradient(to bottom right, yellow,green,red,indigo);
+     background-image: linear-gradient(240deg, yellow,green,red,indigo);
+     background-image: radial-gradient(circle, yellow,green,red,indigo);
+}
+
+#overflow{
+     width: 200px;
+     height: 100px;
+     border: 1px solid #000;
+     overflow: scroll;
+     overflow: hidden;
+     overflow: visible;
+     overflow: auto;
+}
+
+#ul-style{
+     list-style-type: none;
+     margin-left: -40px;
+}
+
+#ol-list{
+     list-style: decimal;
+}
+
+ol li{
+     color: green;
+}
+
+table{
+     border: 1px solid;
+     border-collapse: collapse;
+     height: 100px;
+     width: 100px;
+     border-spacing:10px;
+}
+tr{
+     border: 1px solid black;
+}
+th{
+     border: 1px solid red; 
+}
+
+td{
+     border: 1px solid yellow;
+}

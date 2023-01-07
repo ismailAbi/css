@@ -1,0 +1,111 @@
+css: Cascading style sheet
+Css is used for styling and design
+
+It can be used in 3 ways:
+inline, internal and external
+we use selectors to apply design
+selector<-p{
+color:blue;
+property-name:value;
+}
+
+
+PRIORITY BETWEEN INLINE, INTERNAL AND EXTERNAL
+
+There is top to bottom rule
+
+inline is highest 
+id is unique for a element
+class
+
+Types of selectors:
+
+1.element selector
+2.id selector
+3.class selector
+
+Multiple classes can be given in class
+
+PRIORITY BETWEEN ID, CLASS AND ELEMENT
+when same -> top to bottom
+id> class > element
+
+
+Ways to use Colors:
+
+Predefined color names:
+Browsers supports 140  color names
+
+RGB:
+Red Green Blue 
+Values(0-255)
+Black rgb(0,0,0)
+white rgb(255,255,255)
+Red rgb(255,0,0)
+Green rgb(0,255,0)
+Blue rgb(0,0,255)
+
+RGBA :
+Red Green Blue Alpha
+Alpha is used for transparency
+Alpha values(0.0 to 1.0)
+0.0 =Fully transparent
+1.0 =Not transparent at all 
+rgba(192,88,95,0.5)
+
+HEX:
+#rrggbb
+red green blue 
+values 00-ff
+same as rgb 
+red #ff0000
+Black #000000
+white #ffffff
+
+HSL :
+Hue saturation Lightness
+Hue is degree on color wheel from 0 to 360, 0 is red 120 is green 240 is blue
+Saturation is percentage, 0% means shade of gray and 100% is full color
+Lightness is percentage, 0% means a black and 100% is white
+RED hsl(0,100%,50%)
+
+HSLA 
+Hue saturation Lightness Alpha
+Alpha 0.0 to 1.0
+hsla(0,100%,50%,0.5)
+
+
+INLINE vs block vs inline block
+
+block:
+1.new Line 
+2.Full width
+3.can apply height and width
+
+
+inline
+1.not start in new Line
+2.doesnt take full width
+3.cant specify height and width
+
+inline-block:
+1.not start in new line 
+2. doesnt take full width
+3.can give height and width 
+
+
+POSITION:
+1.static: by default
+2.relative
+3.absolute
+4.fixed
+
+1.top
+2.bottom
+3.left
+4.right
+
+Validating the Css 
+validate w3.org 
+copy paste 
+            
